@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border-collapse: collapse;
+        }
+    </style>
+    <title>Pizza</title>
+</head>
+<body>
+    <form action="">
+        <table border="1">
+            <tr>
+               <th colspan="2">
+                    Pizza Shop 2.0
+               </th>
+            </tr>
+            <tr>
+                <td>
+                    Name
+                </td>
+                <td>
+                    <input type="text" name="user" placeholder="enter your name..." autofocus required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pizza Topping
+                </td>
+                <td>
+                    <input type="radio" name="top" value="sup" checked> Supreme <br>
+                    <input type="radio" name="top" value="veg"> Vegetarian <br>
+                    <input type="radio" name="top" value="haw"> Hawaiian
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pizza Sauce
+                </td>
+                <td>
+                    <select name="sauce">
+                        <option value="tomato">Tomato</option>
+                        <option value="cream">Sour cream</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Optional Extras
+                </td>
+                <td>
+                    <input type="checkbox" name="extras1" value="ex1">Extra Cheese
+                    <input type="checkbox" name="extras2" value="ex2">Gluten free base
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Delivery instructions: <br>
+                    <textarea name="delivery" id="delivery" cols="50" rows="10" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Send my Order" name="submitbtn"> 
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
