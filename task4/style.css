@@ -1,0 +1,38 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+nav {
+    background-color: rgb(250, 10, 142);
+    margin-top: 30px;
+    height: 40px;
+    line-height: 40px;
+}
+header {
+    background-color: rgb(128, 3, 128);
+    height: 120px;
+    line-height: 120px;
+}
+div {
+    background-color: rgb(48, 204, 48);
+    width: 550px;
+    height: 400px;
+    float: left;
+    line-height: 400px;
+}
+aside {
+    width: 250px;
+    height: 400px;
+    background-color: rgb(12, 97, 12);
+    float: right;
+    line-height: 400px;
+}
+footer {
+    background-color: rgb(223, 130, 10);
+}
