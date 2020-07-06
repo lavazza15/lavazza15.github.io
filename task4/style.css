@@ -35,4 +35,5 @@ aside {
 }
 footer {
     background-color: rgb(223, 130, 10);
+    clear: both;
 }
