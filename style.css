@@ -65,3 +65,10 @@ nav a {
 nav a:hover {
     background-color: rgb(157, 158, 158);
 }
+#country {
+    background-color: rgb(224, 238, 238);
+    width: 80%;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+}
