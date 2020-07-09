@@ -72,3 +72,7 @@ nav a:hover {
     margin: 20px auto;
     padding: 20px;
 }
+.about-photo figure {
+    display: inline-block;
+    text-align: center;
+}
