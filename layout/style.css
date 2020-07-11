@@ -1,13 +1,13 @@
 body {
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
     font-family: 'VT323', monospace;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .ubuntu {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 .fas {
     color: #f59c09;
@@ -19,7 +19,7 @@ body {
     justify-content: center;
     background: linear-gradient(#3689cb, #0762a9);
     color: white;
-    padding: 5px;
+    padding: 3px;
     border-radius: 10px;
     margin: 10px 0;
 }
@@ -38,6 +38,11 @@ body {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    margin-right: 80px;
+}
+
+footer p {
+    color: #909090;
 }
 
 header {
@@ -49,7 +54,7 @@ header {
 
 .verdana {
     font-family: 'VT323', monospace;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .top {
@@ -60,15 +65,15 @@ header {
     width: 200px;
     color: #466985;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 .top-second {
-    width: 350px;
+    width: 300px;
     border: 1px solid #81bae5;
     background-color: #f9fafc;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .top-second .bold {
@@ -85,7 +90,7 @@ header {
 }
 
 .top-third {
-    width: 350px;
+    width: 330px;
     color: #0e548a;
     line-height: 2em;
 }
@@ -103,7 +108,7 @@ nav {
     justify-content: space-between;
     background: linear-gradient(#3689cb, #0762a9);
     color: white;
-    padding: 5px;
+    padding: 3px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -175,4 +180,13 @@ aside {
     font-size: 28px;
     line-height: 40px;
     padding-left: 20px;
+}
+
+.dr-end {
+    border-bottom: none;
+    padding-bottom: 30px;
+}
+
+.end {
+    padding-bottom: 200px;
 }
