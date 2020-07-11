@@ -4,30 +4,65 @@ body {
     font-family: 'VT323', monospace;
     font-size: 1.2em;
 }
+
 .ubuntu {
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
-    
 }
+.fas {
+    color: #f59c09;
+    padding: 5px;
+}
+
+.footer-line {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#3689cb, #0762a9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.footer-line .country {
+    margin-left: 30px;
+}
+
+.footer-a a {
+    color: #909090;
+    text-decoration: none;
+}
+
+.footer-a {
+    color: #909090;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
 header {
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
     font-size: 16px;
 }
+
 .verdana {
     font-family: 'VT323', monospace;
-    font-size: 1.1em;
+    font-size: 18px;
 }
+
 .top {
     margin: 30pxpx;
 }
+
 .top-first {
     width: 200px;
     color: #466985;
     text-align: center;
     line-height: 1.5em;
 }
+
 .top-second {
     width: 350px;
     border: 1px solid #81bae5;
@@ -35,27 +70,34 @@ header {
     border-radius: 10px;
     padding: 10px;
 }
+
 .top-second .bold {
     font-weight: bold;
 }
+
 .top-second .red {
     color: red;
 }
+
 .top-second a {
     text-decoration: none;
     color: #ff9900;
 }
+
 .top-third {
     width: 350px;
     color: #0e548a;
     line-height: 2em;
 }
+
 .top-third .fas {
     color:#48acfd;
 }
+
 .top-fourth {
     width: 150px;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -63,18 +105,74 @@ nav {
     color: white;
     padding: 5px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
+
 nav form {
     padding-left: 20px;
 }
 nav div {
     padding-right: 20px;
 }
+
 nav div a {
     text-decoration: none;
     color: white;
 }
-aside div {
+
+.dropbtn {
+    background-color: #e8f0f6;
+    color: black;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+}
+  
+.dropdown-content {
+    display: none;
+    background-color: #e8f0f6;
+    min-width: 160px;
+    z-index: 1;
+    width: 100%;
+}
+  
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #336699;
+}
+  
+.dropdown-content a:hover {
+      text-decoration: underline;
+}
+  
+.dropdown:hover .dropdown-content {
+      display: block;
+}
+  
+.dropdown:hover .dropbtn {
+      color: #336699;
+      text-decoration: underline;
+}
+
+aside {
     display: flex;
     flex-direction: column;
+}
+.aside-header {
+    background: linear-gradient(#68a3c8, #cfe0f0);
+    width: 230px;
+    height: 40px;
+    font-size: 28px;
+    line-height: 40px;
+    padding-left: 20px;
 }
