@@ -1,0 +1,80 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'VT323', monospace;
+    font-size: 1.2em;
+}
+.ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    font-size: 16px;
+}
+.verdana {
+    font-family: 'VT323', monospace;
+    font-size: 1.1em;
+}
+.top {
+    margin: 30pxpx;
+}
+.top-first {
+    width: 200px;
+    color: #466985;
+    text-align: center;
+    line-height: 1.5em;
+}
+.top-second {
+    width: 350px;
+    border: 1px solid #81bae5;
+    background-color: #f9fafc;
+    border-radius: 10px;
+    padding: 10px;
+}
+.top-second .bold {
+    font-weight: bold;
+}
+.top-second .red {
+    color: red;
+}
+.top-second a {
+    text-decoration: none;
+    color: #ff9900;
+}
+.top-third {
+    width: 350px;
+    color: #0e548a;
+    line-height: 2em;
+}
+.top-third .fas {
+    color:#48acfd;
+}
+.top-fourth {
+    width: 150px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#3689cb, #0762a9);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+nav form {
+    padding-left: 20px;
+}
+nav div {
+    padding-right: 20px;
+}
+nav div a {
+    text-decoration: none;
+    color: white;
+}
+aside div {
+    display: flex;
+    flex-direction: column;
+}
