@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <title>Layout</title>
 </head>
@@ -19,17 +20,29 @@
         <div class="top, top-second">
             <span class="bold">Looking for More Sleep Number Info?</span> <br> Sign up to receive our
             DVD, email news and <br> deals. New Customer? Get <span class="red">$50 in savings.</span> <br>
-            <input type="image" src="images/right-bttn.png">
-            <a href="#">SIGN-UP NOW!</a>
+            <p>
+                <input type="image" src="images/right-bttn.png">
+                <a href="#">SIGN-UP NOW!</a>
+            </p>
+            
         </div>
         <div class="top, top-third">
-            SHOP ONLINE | <i class='fas'>&#xf218;</i>
-            <a href="#" class="verdana">Cart (0)</a> <br> <span class="verdana">1-888-411-2188</span>
+            <p>
+                <img src="images/1.png"> SHOP ONLINE |
+                <i class='fas'>&#xf218;</i>
+                <a href="#" class="verdana a-blue">Cart (0)</a>
+            </p>
+            <p class="verdana tel">
+                1-888-411-2188
+            </p>
+            <p>
             <form>
+                <img src="images/3.png">
                 FIND OUR STORES
-                <input type="search" placeholder="Enter Zip">
+                <input type="search" placeholder="Enter Zip" id="zip">
                 <input type="image" src="images/right-bttn.png">
             </form>
+            </p>
         </div>
         <div class="top, top-fourth">
             <img src="images/top-img.jpg" alt="">
@@ -46,65 +59,189 @@
                 <a href="#">Bed Owners</a> | <a href="#">Check Order Status</a> | <a href="#">Customer Servise</a>
             </div>
         </nav>
-        <aside>
-            <div class="aside-header ubuntu">BUY</div>
-            <div class="dropdown">
-                <button class="dropbtn verdana"><i class='fas'>&#xf35a;</i>Sleep Number Beds</button>
-                <div class="dropdown-content">
-                    <a href="#">Classic Series</a>
-                    <a href="#">Performance Series</a>
-                    <a href="#">Innovation Series</a>
+        <div class="main">
+            <aside>
+                <div class="aside-header ubuntu">BUY</div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana"><i class='fas'>&#xf35a;</i>Sleep Number Beds</button>
+                    <div class="dropdown-content">
+                        <a href="#">Classic Series</a>
+                        <a href="#">Performance Series</a>
+                        <a href="#">Innovation Series</a>
+                    </div>
                 </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Specialty Beds</button>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Pillows & Bedding</button>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Outlet</button>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn verdana dr-end"> <i class='fas'>&#xf35a;</i>Bed Specials</button>
-            </div>
-            <div class="aside-header">LEARN</div>
-            <div class="dropdown">
-                <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>What is A Sleep Number?</button>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Sleep Number Research</button>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Sleep Number Rewiews</button>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Compare Our Beds</button>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn verdana dr-end"> <i class='fas'>&#xf35a;</i>Compare Our Bases</button>
-            </div>
-            <div class="aside-header">TRY</div>
-            <div class="dropdown">
-                <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Find My Sleep Number</button>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>How Sleep Number Works</button>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn verdana dr-end"> <i class='fas'>&#xf35a;</i>Visit A Sleep Number Store</button>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn verdana end">
-                <i class='fas'>&#xf35a;</i>Connect with Us
-                <input type="image" src="images/fb.png">
-                <input type="image" src="images/tw.png">
-            </button>
-            </div>
-        </aside>
+                <div class="dropdown">
+                    <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Specialty Beds</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Pillows & Bedding</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Outlet</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana dr-end"> <i class='fas'>&#xf35a;</i>Bed Specials</button>
+                </div>
+                <div class="aside-header ubuntu">LEARN</div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>What is A Sleep Number?</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Sleep Number Research</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Sleep Number Rewiews</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Compare Our Beds</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana dr-end"> <i class='fas'>&#xf35a;</i>Compare Our Bases</button>
+                </div>
+                <div class="aside-header ubuntu">TRY</div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>Find My Sleep Number</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana"> <i class='fas'>&#xf35a;</i>How Sleep Number Works</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana dr-end"> <i class='fas'>&#xf35a;</i>Visit A Sleep Number
+                        Store</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn verdana end">
+                        <i class='fas'>&#xf35a;</i>Connect with Us
+                        <input type="image" src="images/fb.png">
+                        <input type="image" src="images/tw.png">
+                    </button>
+                </div>
+            </aside>
+
+            <section>
+                <div class="printer">
+                    <a href="#"> <img src="images/printer.png"> Printer Friendly</a>
+                </div>
+                <h1>i10 Sleep Number bed</h1>
+                <div>
+                    <div class="tab">
+                        <button class="tablinks active" onclick="openCity(event, 'London')">Photo</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">Video</button>
+                    </div>
+                    <div id="London" class="tabcontent" style="display: block;">
+                        <div>
+                            <img src="images/main-img.jpg">
+                        </div>
+                        <div>
+                            <div>
+                                <span>RATING</span>
+                                <img src="images/stars-img.jpg">
+                                <span>4.7 out of 5</span>
+                            </div>
+                            <div>
+                                <a href="#">Read all 32 reviews</a> |
+                                <a href="#">Write a review</a>
+                            </div>
+                            <div>
+                                <p>
+                                    SIZE:
+                                    <a href="#">View Size Chart</a>
+                                    <select name="">
+                                        <option value="Queen">Queen</option>
+                                        <option value="King">King</option>
+                                        <option value="Single">Single</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    BASE:
+                                    <a href="#">(Recommended)</a>
+                                    <select>
+                                        <option value="">Select a base</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <a href="#">MATTRESS PROTECTION</a>
+                                    <select>
+                                        <option value="">Select a protection</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <input type="submit" value="ADD BED TO CART">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'London')">Bed Detail</button>
+                        <button class="tablinks" onclick="openCity(event, 'Paris')">Base Option</button>
+                        <button class="tablinks active" onclick="openCity(event, 'Tokyo')">Reviews</button>
+                    </div>
+                    <div id="Tokyo" class="tabcontent" style="display: block;">
+                        <p>
+                            <a href="#">Printable Reviews</a>
+                        </p>
+                        <p>
+                            Review This Product
+                            <select name="sort order">
+                                <option value="sort order">
+                                    Choose a sort order
+                                </option>
+                            </select>
+                        </p>
+                        <div>
+                            <p>
+                                Overall: <img src="images/stars-img.jpg">
+                                Comfort: <img src="images/rating.png">
+                                Quality: <img src="images/rating.png">
+                                Value: <img src="images/rating1.png">
+                                <hr>
+                            </p>
+                            <p>
+                                <span>
+                                    High Desert Sleeper <br>
+                                    Location: Santa Fe, NM
+                                </span>
+                                <hr>
+                            </p>
+                        </div>
+                        <div>
+                            <img src="images/feacher.jpg">
+                            <span>Date: November 9,2007</span>
+                            <p>
+                                "I used to always watch TV in my bedroom until I got this bed. Now, as soon as I get
+                                into this remarkable bed, I can't keep my eyes open but for about 10 minutes. I have to
+                                set the sleep timer on the TV or it stays on all night...it's happend many times. So, if
+                                you buy this bed (and you won't regret even its expensiveness) be prepared for a GREAT
+                                night's sleep! I can't say enough good about this bed, but be sure you get their BEST!
+                                Trust me, you may want to buy the less expensive models, but don't do it. Trust your
+                                instincts and go FIRST CLASS!"
+                            </p>
+                            <p>
+                                247 of 277 people found this review helpful.
+                            </p>
+                            <p>
+                                Was this review helpful to you? <a href="@">Yes</a> <a href="@">No</a> (Report
+                                Inappropriate Review) <br>
+                                Vote recorded. Vote may take up to 12 hours to display.
+                                <hr>
+                            </p>
+                        </div>
+                        <div>
+                            1-4 of 32
+                            <a href="#">Next Page</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
     </main>
+
     <footer>
-        <div class="footer-line">
+        <div class=" footer-line">
             <span>
                 Reseive the latest news on our products, research and promotions:
             </span>
@@ -132,11 +269,12 @@
             <a href="#">Company Blog</a>
         </div>
         <p>
-            &copy; 2000-2010 Select Comfort SLEEP NUMBER, SELECT COMFORT and the Double Arrow Design are registered
-            trademarks and THE SLEEP NUMBER BED BY SELECT COMFORT is a trademark of Select Comfort Corporation.
+            &copy; 2000-2010 Select Comfort SLEEP NUMBER, SELECT COMFORT and the Double Arrow Design are
+            registered
+            trademarks and THE SLEEP NUMBER BED BY SELECT COMFORT is a trademark of Select Comfort
+            Corporation.
             <a href="#">More legal.</a>
         </p>
-        
     </footer>
 </body>
 
