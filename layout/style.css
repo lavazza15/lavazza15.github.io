@@ -199,14 +199,54 @@ aside {
     margin-left: 5px;
     display: flex;
     flex-wrap: wrap;
-    width: 700px;
+    width: 710px;
     border: 1px solid #bebdbd;
     padding-top: 10px;
 }
 
 .rating {
-    margin-left: 15px;
+    margin: 20px 0 0 15px;
     color: #666666;
+    width: 280px;
+}
+
+.rating-first {
+    display: flex;
+    justify-content: space-between;
+    line-height: 26px;
+}
+
+.rating-second {
+    text-align: right;
+}
+
+.rating-third {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.rating-third .options {
+    margin: 10px 0 0 0;
+}
+
+.rating-third .options select {
+    margin: 5px 0;
+    border: 1px solid #819ebc;
+    background-color: white;
+}
+
+#queen {
+    width: 110px;
+}
+
+#add-bed-btn {
+    color: white;
+    background-color: #f99c02;
+    border: none;
+    width: 180px;
+    height: 35px;
+    font-weight: bold;
 }
 
 .dr-end {
