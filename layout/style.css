@@ -45,7 +45,7 @@ header {
     line-height: 1.3em;
 }
 
-.top-second .bold {
+.bold {
     font-weight: bold;
 }
 
@@ -192,7 +192,7 @@ aside {
 #h1 {
     color: #386c93;
     font-size: 24px;
-    margin: 0 0 5px 0;
+    margin: 0 0 5px 5px;
 }
 
 .about {
@@ -236,6 +236,23 @@ aside {
     background-color: white;
 }
 
+.rating-fourth .options select {
+    margin: 5px 0;
+    border: 1px solid #819ebc;
+    background-color: white;
+}
+
+.rating-fifth a {
+    color: #666666;
+    text-decoration: none;
+    line-height: 22px;
+    margin-left: 10pxs;
+}
+
+.rating-fifth {
+    display: flex;
+}
+
 #queen {
     width: 110px;
 }
@@ -247,6 +264,62 @@ aside {
     width: 180px;
     height: 35px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.review {
+    width: 710px;
+    border: 1px solid #bebdbd;
+    margin: 5px 0 0 5px;
+}
+
+.review select {
+    margin: 0;
+    border: 1px solid #819ebc;
+    background-color: white;
+}
+
+.rev1 {
+    margin: 10px 0 0 15px;
+}
+
+.rev2 {
+    text-align: right;
+    margin: 0 10px 5px 0;
+}
+
+.rev2 select {
+    color: #666666;
+}
+
+.rev31 {
+    margin-left: 10px;
+}
+
+.rev32 {
+    margin-left: 15px;
+}
+
+.rev33 {
+    margin-left: 15px;
+}
+
+.rev34 {
+    margin-left: 22px;
+}
+
+.rev3 {
+    display: flex;
+    color: #666666;
+}
+
+#review31 {
+    width: 290px;
+    padding: 0 10px 0 10px;
+}
+
+#review32 {
+    width: 400px;
 }
 
 .dr-end {
