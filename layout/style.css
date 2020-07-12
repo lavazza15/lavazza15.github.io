@@ -288,6 +288,10 @@ aside {
     margin: 0 10px 5px 0;
 }
 
+#rev11 {
+    border-bottom: 1px solid #cccccc;
+}
+
 .rev2 select {
     color: #666666;
 }
@@ -311,6 +315,7 @@ aside {
 .rev3 {
     display: flex;
     color: #666666;
+    border-bottom: 1px solid #cccccc;
 }
 
 #review31 {
@@ -320,6 +325,18 @@ aside {
 
 #review32 {
     width: 400px;
+    border-left: 1px solid #cccccc;
+    padding-left: 5px;
+}
+
+.next-page {
+    color: #666666;
+    display: flex;
+    height: 40px;
+    padding-left: 300px;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .dr-end {
@@ -328,17 +345,24 @@ aside {
 }
 
 .end {
-    padding-bottom: 200px;
+    padding-bottom: 250px;
 }
 
 .footer-line {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    width: 880px;
     background: linear-gradient(#3689cb, #0762a9);
     color: white;
-    padding: 3px;
     border-radius: 10px;
     margin: 10px 0;
+    line-height: 20px;
+    height: 25px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.footer-line select {
+    color: #909090;
 }
 
 .footer-line .country {
@@ -356,6 +380,7 @@ aside {
     display: flex;
     justify-content: space-between;
     margin-right: 80px;
+    margin-left: 10px;
 }
 
 footer p {
