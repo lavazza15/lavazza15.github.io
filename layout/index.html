@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <title>Layout</title>
 </head>
 
 <body>
+
     <header class="ubuntu">
         <div class="top, top-first">
             <img src="images/logo.jpg" alt="logo">
@@ -24,7 +24,7 @@
                 <input type="image" src="images/right-bttn.png">
                 <a href="#">SIGN-UP NOW!</a>
             </p>
-            
+
         </div>
         <div class="top, top-third">
             <p>
@@ -48,6 +48,7 @@
             <img src="images/top-img.jpg" alt="">
         </div>
     </header>
+
     <main>
         <nav>
             <form>
@@ -61,7 +62,9 @@
         </nav>
         <div class="main">
             <aside>
-                <div class="aside-header ubuntu">BUY</div>
+                <div class="aside-header ubuntu">
+                    BUY
+                </div>
                 <div class="dropdown">
                     <button class="dropbtn verdana"><i class='fas'>&#xf35a;</i>Sleep Number Beds</button>
                     <div class="dropdown-content">
@@ -120,122 +123,112 @@
 
             <section>
                 <div class="printer">
-                    <a href="#"> <img src="images/printer.png"> Printer Friendly</a>
+                    <a href="#" class="a-blue"> <img src="images/printer.png"> Printer Friendly</a>
                 </div>
-                <h1>i10 Sleep Number bed</h1>
-                <div>
-                    <div class="tab">
-                        <button class="tablinks active" onclick="openCity(event, 'London')">Photo</button>
-                        <button class="tablinks" onclick="openCity(event, 'Paris')">Video</button>
+                <h1 id="h1" class="ubuntu">i10 Sleep Number bed</h1>
+                <div class="about">
+                    <div>
+                        <img src="images/main-img.jpg">
                     </div>
-                    <div id="London" class="tabcontent" style="display: block;">
+                    <div class="rating">
                         <div>
-                            <img src="images/main-img.jpg">
+                            <span>RATING:</span>
+                            <img src="images/stars-img.jpg">
+                            <span>4.7 out of 5</span>
                         </div>
                         <div>
-                            <div>
-                                <span>RATING</span>
-                                <img src="images/stars-img.jpg">
-                                <span>4.7 out of 5</span>
-                            </div>
-                            <div>
-                                <a href="#">Read all 32 reviews</a> |
-                                <a href="#">Write a review</a>
-                            </div>
-                            <div>
-                                <p>
-                                    SIZE:
-                                    <a href="#">View Size Chart</a>
-                                    <select name="">
-                                        <option value="Queen">Queen</option>
-                                        <option value="King">King</option>
-                                        <option value="Single">Single</option>
-                                    </select>
-                                </p>
-                                <p>
-                                    BASE:
-                                    <a href="#">(Recommended)</a>
-                                    <select>
-                                        <option value="">Select a base</option>
-                                    </select>
-                                </p>
-                                <p>
-                                    <a href="#">MATTRESS PROTECTION</a>
-                                    <select>
-                                        <option value="">Select a protection</option>
-                                    </select>
-                                </p>
-                                <p>
-                                    <input type="submit" value="ADD BED TO CART">
-                                </p>
-                            </div>
+                            <a href="#" class="a-blue">Read all 32 reviews</a> |
+                            <a href="#" class="a-blue">Write a review</a>
+                        </div>
+                        <div>
+                            <p>
+                                SIZE:
+                                <a href="#" class="a-blue">View Size Chart</a>
+                                <select name="">
+                                    <option value="Queen">Queen</option>
+                                    <option value="King">King</option>
+                                    <option value="Single">Single</option>
+                                </select>
+                            </p>
+                            <p>
+                                BASE:
+                                <a href="#" class="a-blue">(Recommended)</a>
+                                <select>
+                                    <option value="">Select a base</option>
+                                </select>
+                            </p>
+                            <p>
+                                <a href="#" class="a-blue">MATTRESS PROTECTION</a>
+                                <select>
+                                    <option value="">Select a protection</option>
+                                </select>
+                            </p>
+                            <p>
+                                <input type="submit" value="ADD BED TO CART">
+                            </p>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div class="tab">
-                        <button class="tablinks" onclick="openCity(event, 'London')">Bed Detail</button>
-                        <button class="tablinks" onclick="openCity(event, 'Paris')">Base Option</button>
-                        <button class="tablinks active" onclick="openCity(event, 'Tokyo')">Reviews</button>
-                    </div>
-                    <div id="Tokyo" class="tabcontent" style="display: block;">
-                        <p>
-                            <a href="#">Printable Reviews</a>
-                        </p>
-                        <p>
-                            Review This Product
-                            <select name="sort order">
-                                <option value="sort order">
-                                    Choose a sort order
-                                </option>
-                            </select>
-                        </p>
-                        <div>
-                            <p>
-                                Overall: <img src="images/stars-img.jpg">
-                                Comfort: <img src="images/rating.png">
-                                Quality: <img src="images/rating.png">
-                                Value: <img src="images/rating1.png">
-                                <hr>
-                            </p>
-                            <p>
-                                <span>
-                                    High Desert Sleeper <br>
-                                    Location: Santa Fe, NM
-                                </span>
-                                <hr>
-                            </p>
-                        </div>
-                        <div>
-                            <img src="images/feacher.jpg">
-                            <span>Date: November 9,2007</span>
-                            <p>
-                                "I used to always watch TV in my bedroom until I got this bed. Now, as soon as I get
-                                into this remarkable bed, I can't keep my eyes open but for about 10 minutes. I have to
-                                set the sleep timer on the TV or it stays on all night...it's happend many times. So, if
-                                you buy this bed (and you won't regret even its expensiveness) be prepared for a GREAT
-                                night's sleep! I can't say enough good about this bed, but be sure you get their BEST!
-                                Trust me, you may want to buy the less expensive models, but don't do it. Trust your
-                                instincts and go FIRST CLASS!"
-                            </p>
-                            <p>
-                                247 of 277 people found this review helpful.
-                            </p>
-                            <p>
-                                Was this review helpful to you? <a href="@">Yes</a> <a href="@">No</a> (Report
-                                Inappropriate Review) <br>
-                                Vote recorded. Vote may take up to 12 hours to display.
-                                <hr>
-                            </p>
-                        </div>
-                        <div>
-                            1-4 of 32
-                            <a href="#">Next Page</a>
-                        </div>
-                    </div>
-
                 </div>
             </section>
+        </div>
+        <div>
+            <p>
+                <a href="#">Printable Reviews</a>
+            </p>
+            <p>
+                Review This Product
+                <select name="sort order">
+                    <option value="sort order">
+                        Choose a sort order
+                    </option>
+                </select>
+            </p>
+            <div>
+                <p>
+                    Overall: <img src="images/stars-img.jpg">
+                    Comfort: <img src="images/rating.png">
+                    Quality: <img src="images/rating.png">
+                    Value: <img src="images/rating1.png">
+                    <hr>
+                </p>
+                <p>
+                    <span>
+                        High Desert Sleeper <br>
+                        Location: Santa Fe, NM
+                    </span>
+                    <hr>
+                </p>
+            </div>
+            <div>
+                <img src="images/feacher.jpg">
+                <span>Date: November 9,2007</span>
+                <p>
+                    "I used to always watch TV in my bedroom until I got this bed. Now, as soon as I get
+                    into this remarkable bed, I can't keep my eyes open but for about 10 minutes. I have to
+                    set the sleep timer on the TV or it stays on all night...it's happend many times. So, if
+                    you buy this bed (and you won't regret even its expensiveness) be prepared for a GREAT
+                    night's sleep! I can't say enough good about this bed, but be sure you get their BEST!
+                    Trust me, you may want to buy the less expensive models, but don't do it. Trust your
+                    instincts and go FIRST CLASS!"
+                </p>
+                <p>
+                    247 of 277 people found this review helpful.
+                </p>
+                <p>
+                    Was this review helpful to you? <a href="@">Yes</a> <a href="@">No</a> (Report
+                    Inappropriate Review) <br>
+                    Vote recorded. Vote may take up to 12 hours to display.
+                    <hr>
+                </p>
+            </div>
+            <div>
+                1-4 of 32
+                <a href="#">Next Page</a>
+            </div>
+        </div>
+
+        </div>
+        </section>
         </div>
 
     </main>
