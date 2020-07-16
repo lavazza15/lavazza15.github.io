@@ -1,7 +1,10 @@
+//функція для визначення площі круга
+
 function area(radius) {
     return Math.PI * radius * radius;
 }
-console.log(area(10));
+
+//функція для визначення довжини кола
 
 function perimeter(radius) {
     return 2 * Math.PI * radius;
