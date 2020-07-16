@@ -1,3 +1,5 @@
+//функція для генерації послідовності Фібоначчі
+
 function generateFibonacciSequence (n) {
     var fibo = [1, 1];
     if (n == 0) {
@@ -11,4 +13,13 @@ function generateFibonacciSequence (n) {
     }
     return fibo;
 }
-console.log (generateFibonacciSequence(10));
+
+//функія для перемішування елементів масиву
+var names = [];
+function ShuffleArray(names) {
+    for (var i = names.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      [names[i], names[j]] = [names[j], names[i]];
+    }
+      return names;
+}
