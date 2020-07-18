@@ -1,0 +1,30 @@
+.cell {
+    display: table-cell;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#container {
+    border-collapse: collapse;
+}
+
+.row {
+    display: table-row;
+    border-collapse: collapse;
+}
+
+.cell-main {
+    background-color: rgb(124, 214, 124);
+}
+
+.cell-umain {
+    background-color: rgb(241, 149, 149);
+}
+
+.cell-omain {
+    background-color: rgb(231, 231, 154);
+}
