@@ -1,0 +1,25 @@
+
+.cell {
+    display: table-cell;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#container {
+    border-collapse: collapse;
+}
+    
+    .row {
+        display: table-row;
+        border-collapse: collapse;
+    }
+
+    .cell-black {
+        background-color: black;
+    }
+
+    .cell-white {
+        background-color: white;
+    }
