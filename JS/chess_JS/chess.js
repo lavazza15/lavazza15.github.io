@@ -8,7 +8,7 @@ for (var i = 1; i <= 8; i++) {
         $class = ((j % 2 !== 0) && (i % 2 !==0))? "cell cell-white": "cell";
         $class = ((j % 2 == 0) && (i % 2 !==0))? "cell cell-black": $class;
         $class = ((j % 2 !== 0) && (i % 2 ==0))? "cell cell-black": $class;
-        $class = ((j % 2 == 0) && (i % 2 !==0))? "cell cell-white": $class;
+        $class = ((j % 2 == 0) && (i % 2 ==0))? "cell cell-white": $class;
         cell.setAttribute("class", $class);
        
         row.appendChild(cell);
