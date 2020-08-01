@@ -18,5 +18,5 @@ function addToDoItem() {
 }
 
 function toDoDone(e) {
-    e.target.style.textDecoration = "line-through";
+    e.target.classList.toggle("done");
 }

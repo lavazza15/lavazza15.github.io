@@ -1,0 +1,16 @@
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+  }
+
+  .done {
+      text-decoration: line-through;
+  }

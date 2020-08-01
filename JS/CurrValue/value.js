@@ -1,5 +1,6 @@
 var btnGet = document.getElementById("btnGet");
 var result = document.getElementById("result");
+var currVal = [];
 btnGet.addEventListener("click", getCurrencyValue);
 
 function dateToStringNBU(dateObj) {
@@ -32,7 +33,8 @@ function getCurrencyValue() {
         XHR.addEventListener("readystatechange", function () {
         if ((XHR.readyState === 4) && (XHR.status === 200)) {
             var data = JSON.parse(XHR.responseText);
-            result.innerHTML = `<h1>${data[0].rate}</h1>`;
+            currVal.push(data[0].rate);
+            result.appendChild(currVal);
         }
     })
     }
